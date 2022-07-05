@@ -1,12 +1,12 @@
 
 # Table of Contents
 
-1.  [Program Structure](#orgeddf826)
-    1.  [2.1 Names](#org2407174)
+1.  [Program Structure](#org52d920e)
+    1.  [2.1 Names](#org5c866c0)
 
 
 
-<a id="orgeddf826"></a>
+<a id="org52d920e"></a>
 
 # Program Structure
 
@@ -15,23 +15,23 @@ This chapter deals with the basic structural elements like variable, type declar
 An entity can be a function, type, variable or constant. The keywords `func`, `type`, `var` and `const` denote these entities.
 
 
-<a id="org2407174"></a>
+<a id="org5c866c0"></a>
 
 ## 2.1 Names
 
 1.  Naming follows simple rules
 
-    -   a name begins with a letter or an underscore
-    -   after the initial letter/underscore, may have any number of letters, digits, and underscores
-    -   names are case sensitive, `heapSort` and `HeapSort` are different names
+    -   a name begins with a letter or an underscore.
+    -   after the initial letter/underscore, may have any number of letters, digits, and underscores.
+    -   names are case sensitive, `heapSort` and `HeapSort` are different names.
     
     Package names are in lower case.
     There is no limit on name length. Short names preferred.
     
     Camel case convention. No snake case.
     Letters of acronyms like ASCII, HTML are always in same case.
-    Preferred - `htmlEscape`, `HTMLEscape`, `escapeHTML`
-    Not preferred - `escapeHtml`
+    Preferred - `htmlEscape`, `HTMLEscape`, `escapeHTML`.
+    Not preferred - `escapeHtml`.
 
 2.  Go has 25 keywords
 

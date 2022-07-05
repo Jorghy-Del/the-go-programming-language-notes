@@ -10,17 +10,17 @@ An entity can be a function, type, variable or constant. The keywords ~func~, ~t
 
 **** Naming follows simple rules
 
-- a name begins with a letter or an underscore
-- after the initial letter/underscore, may have any number of letters, digits, and underscores
-- names are case sensitive, ~heapSort~ and ~HeapSort~ are different names
+- a name begins with a letter or an underscore.
+- after the initial letter/underscore, may have any number of letters, digits, and underscores.
+- names are case sensitive, ~heapSort~ and ~HeapSort~ are different names.
 
 Package names are in lower case.
 There is no limit on name length. Short names preferred.
 
 Camel case convention. No snake case.
 Letters of acronyms like ASCII, HTML are always in same case.
-Preferred - ~htmlEscape~, ~HTMLEscape~, ~escapeHTML~
-Not preferred - ~escapeHtml~
+Preferred - ~htmlEscape~, ~HTMLEscape~, ~escapeHTML~.
+Not preferred - ~escapeHtml~.
 
 
 **** Go has 25 keywords
