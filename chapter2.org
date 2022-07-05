@@ -1,12 +1,15 @@
 #+title: Chapter2
 
 * Program Structure
+
 This chapter deals with the basic structural elements like variable, type declarations, packages, files, scope etc.
 
 An entity can be a function, type, variable or constant. The keywords ~func~, ~type~, ~var~ and ~const~ denote these entities.
 
 ** 2.1 Names
+
 **** Naming follows simple rules
+
 - a name begins with a letter or an underscore
 - after the initial letter/underscore, may have any number of letters, digits, and underscores
 - names are case sensitive, ~heapSort~ and ~HeapSort~ are different names
@@ -30,8 +33,10 @@ Not preferred - ~escapeHtml~
 | select    | struct | switch  | type        | var      |
 |-----------+--------+---------+-------------+----------|
 
+
 **** Pre-declared names
-Go has the following pre-declard names for built-in constants, types and functions. These names are not reserved. They are usable in declarations.
+
+Go has the following pre-declared names for built-in constants, types and functions. These names are not reserved. They are usable in declarations.
 
 |-----------+-----------------------------------------------------|
 | Constants | true false iota                                     |
@@ -44,4 +49,9 @@ Go has the following pre-declard names for built-in constants, types and functio
 |           | complex real imag panic recover                     |
 |-----------+-----------------------------------------------------|
 
+
 **** Exported entities
+
+An entity (function, type, variable or constant) declared outside of a function is visible in all files of the package to which it belongs. An entity declared within a function is local to that function.
+
+When first letter of a name is upper-case, it is /exported/ - it is visible and accessible outside its own package. Names with initial letter in lower-case are visible only inside either the function to which it is local to or only the package to which it belongs.
