@@ -1,0 +1,4 @@
+#+title: Readme
+
+* Notes for The Go Programming Language book
+These are notes that I have made for the book by Alan Donovan and Brian Kernighan.
